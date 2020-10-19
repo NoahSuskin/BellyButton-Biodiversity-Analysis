@@ -1,6 +1,6 @@
 function init() {
     var dropDown = d3.select('#selDataset')
-    d3.json('samples.json').then((data) => {
+    d3.json('Resources/samples.json').then((data) => {
         //console.log(data)
 
 
@@ -18,7 +18,7 @@ function init() {
 
 
 function makeCharts(id) {
-    d3.json('samples.json').then((data) => {
+    d3.json('Resources/samples.json').then((data) => {
 
         // make horizontal bar chart
 
